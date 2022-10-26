@@ -9,8 +9,7 @@ namespace CSharpToPlantUML
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc()
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+            services.AddMvc(options => options.EnableEndpointRouting = false)
                 .AddRazorPagesOptions(o => o.Conventions.ConfigureFilter(new IgnoreAntiforgeryTokenAttribute()));
         }
 

@@ -1,21 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8319887-B358-4E90-8993-BFF3159D5EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpToPlantUML", "src\CSharpToPlantUML\CSharpToPlantUML.csproj", "{E37025B0-06B2-49D7-9804-CE8C876B08CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpToPlantUML", "src\CSharpToPlantUML\CSharpToPlantUML.csproj", "{E37025B0-06B2-49D7-9804-CE8C876B08CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{1952D6EF-EBEC-459B-9F3C-E28D8ED1BC5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantUmlClassDiagramGenerator.Library", "lib\PlantUmlClassDiagramGenerator\src\PlantUmlClassDiagramGenerator.Library\PlantUmlClassDiagramGenerator.Library.csproj", "{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGenerator.Library", "lib\PlantUmlClassDiagramGenerator\src\PlantUmlClassDiagramGenerator.Library\PlantUmlClassDiagramGenerator.Library.csproj", "{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E37025B0-06B2-49D7-9804-CE8C876B08CB} = {D8319887-B358-4E90-8993-BFF3159D5EE1}
-		{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424} = {1952D6EF-EBEC-459B-9F3C-E28D8ED1BC5B}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E37025B0-06B2-49D7-9804-CE8C876B08CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +25,15 @@ Global
 		{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E37025B0-06B2-49D7-9804-CE8C876B08CB} = {D8319887-B358-4E90-8993-BFF3159D5EE1}
+		{4A48B5C5-FCF2-4EF1-BA64-AC077CB4F424} = {1952D6EF-EBEC-459B-9F3C-E28D8ED1BC5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {944B457A-213E-409C-B6FA-36FF5920F590}
 	EndGlobalSection
 EndGlobal
