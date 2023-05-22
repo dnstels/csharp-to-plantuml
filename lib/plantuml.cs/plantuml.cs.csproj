@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>iTernity.plantuml</PackageId>
+    <Authors>Robert Schall, Armin Weißer</Authors>
+    <Company>iTernity GmbH</Company>
+    <Description>The package provides classes to interact with PlantUML.
+For example the class PlantUMLURL can transform a plain, textual PlantUML diagram to a public available URL, where everyone can edit and view the diagram as png or svg graphic.</Description>
+    <Copyright></Copyright>
+    <PackageTags>plantuml</PackageTags>
+    <NeutralLanguage></NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.1</Version>
+    <Product>iTernity PlantUML Tools</Product>
+    <RepositoryUrl>https://gitlab.com/iternity/plantuml.cs</RepositoryUrl>
+    <PackageLicenseUrl>https://gitlab.com/iternity/plantuml.cs/raw/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://gitlab.com/iternity/plantuml.cs</PackageProjectUrl>
+    <RootNamespace>Iternity.PlantUML</RootNamespace>
+  </PropertyGroup>
+
+</Project>
