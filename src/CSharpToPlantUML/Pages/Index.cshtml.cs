@@ -15,6 +15,10 @@ namespace CSharpToPlantUML.Pages
 
         [Required]
         [BindProperty]
+        public DiagramInputFormat InputFormat { get; set; }
+
+        [Required]
+        [BindProperty]
         public DiagramOutputFormat OutputFormat { get; set; }
 
         [BindProperty]
@@ -24,7 +28,11 @@ namespace CSharpToPlantUML.Pages
         {
             try
             {
-                var puml = SourceToPlantUMLConverter.GetPlantUml(CSharpSource);
+                string puml;
+                if(InputFormat== DiagramInputFormat.CSharp) 
+                    puml = SourceToPlantUMLConverter.GetPlantUml(CSharpSource);
+                else puml = CSharpSource;
+
                 Conversion = Conversion.FromPlantUML(puml);
             }
             catch (Exception e)

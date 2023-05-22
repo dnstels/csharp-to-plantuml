@@ -16,7 +16,8 @@
 <h1>C# To PlantUML</h1>
 <form method="post">
     <div>
-        <h4>C# source:</h4>
+        @*<h4>C# source:</h4>*@
+        <h4>Input format: <select asp-for="InputFormat" asp-items="Html.GetEnumSelectList<DiagramInputFormat>()"></select></h4>
         <textarea asp-for="CSharpSource"></textarea>
     </div>
     <div>
