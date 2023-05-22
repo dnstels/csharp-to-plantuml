@@ -10,6 +10,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\plantuml.cs-master\plantuml.cs\plantuml.cs.csproj" />
+    <ProjectReference Include="..\..\lib\PlantUmlClassDiagramGenerator.Library\PlantUmlClassDiagramGenerator.Library.csproj" />
     <ProjectReference Include="..\..\lib\PlantUmlClassDiagramGenerator\src\PlantUmlClassDiagramGenerator.Library\PlantUmlClassDiagramGenerator.Library.csproj" />
   </ItemGroup>
   <ItemGroup>
