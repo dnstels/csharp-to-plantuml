@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "plantuml.cs", "..\plantuml.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGenerator.Library", "lib\PlantUmlClassDiagramGenerator.Library\PlantUmlClassDiagramGenerator.Library.csproj", "{94FABA36-C5F7-49EB-B556-CA5324A7AF42}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGenerator", "lib\PlantUmlClassDiagramGenerator\PlantUmlClassDiagramGenerator.csproj", "{1BCDDC91-E780-4028-B9E1-1E90DA9C3D2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{94FABA36-C5F7-49EB-B556-CA5324A7AF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94FABA36-C5F7-49EB-B556-CA5324A7AF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94FABA36-C5F7-49EB-B556-CA5324A7AF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCDDC91-E780-4028-B9E1-1E90DA9C3D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCDDC91-E780-4028-B9E1-1E90DA9C3D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCDDC91-E780-4028-B9E1-1E90DA9C3D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCDDC91-E780-4028-B9E1-1E90DA9C3D2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{E37025B0-06B2-49D7-9804-CE8C876B08CB} = {D8319887-B358-4E90-8993-BFF3159D5EE1}
 		{E03AA542-6524-4A9E-94E9-BA8E84DDDF9A} = {1952D6EF-EBEC-459B-9F3C-E28D8ED1BC5B}
 		{94FABA36-C5F7-49EB-B556-CA5324A7AF42} = {1952D6EF-EBEC-459B-9F3C-E28D8ED1BC5B}
+		{1BCDDC91-E780-4028-B9E1-1E90DA9C3D2B} = {1952D6EF-EBEC-459B-9F3C-E28D8ED1BC5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {944B457A-213E-409C-B6FA-36FF5920F590}
